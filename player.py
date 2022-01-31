@@ -12,16 +12,16 @@ class Player(pg.sprite.Sprite):
         self.speed = 6
         self.move = {  # spritesheet dictionary
             'down': pg.image.load(
-                        './gfx/ACharDown.png'
+                        './ACharDown.png'
                     ).convert_alpha(self.display_surf),
             'up': pg.image.load(
-                        './gfx/ACharUp.png'
+                        './ACharUp.png'
                     ).convert_alpha(self.display_surf),
             'right': pg.image.load(
-                        './gfx/ACharRight.png'
+                        './ACharRight.png'
                     ).convert_alpha(self.display_surf),
             'left': pg.image.load(
-                        './gfx/ACharLeft.png'
+                        './ACharLeft.png'
                     ).convert_alpha(self.display_surf)
         }
         self.raw_image = self.move['down']  # default image
