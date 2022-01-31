@@ -1,3 +1,9 @@
+# A small program using pygame and
+# spritesheet to produce animation sprite
+# this file contains the main game window
+# after download this repo you must run
+# this file to actually run the game! have fun (@^-^@)
+
 import pygame as pg
 from setting import WINW, WINH, FPS, TILESIZE
 from player import Player
