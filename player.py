@@ -61,7 +61,6 @@ class Player(pg.sprite.Sprite):
 
         if keys[pg.K_RIGHT]:
             self.direction.x = 1
-            #  create the animation for the player moving right the screen
             self.raw_image = self.move['right']
             self.animated()
         elif keys[pg.K_LEFT]:
